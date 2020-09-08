@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+/* Signup/Login */
+.loginHeader {
+  display: block;
+  font-size: 70px;
+  font-family: "Pacifico";
+  line-height: 3em;
+  text-align: center;
+  color: #ff686b;
+}
+
+.signin {
+  width: 40% !important;
+}
+
+.signup,
+.login {
+  background-color: blue;
+  color: white !important;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  height: 100vh;
+}
+.signinForm {
+  width: 40%;
+  color: white !important;
+  margin: auto;
+}
+.ui container {
+  margin: auto;
+}
+.field label {
+  color: white !important;
+}
+.myFont {
+  font-family: "Pacifico";
+  font-size: 30px;
+  color: #ff686b;
+}
+.entry {
+  padding: 15px !important;
+  font-size: 20px;
+}
+.entryBtn {
+  margin-left: 10px !important;
+}
+.entryDiv {
+  display: inline-block !important;
+}
+.signup,
+.login {
+  background-image: url("./icons/colorful-1974699_1920.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100% !important;
+}
+
+.registerLinks {
+  font-size: 15px;
+  color: white;
+  margin: 10px !important;
+}
+
+.editForm .description {
+  width: 50% !important;
+}
+
+.bookBtn button {
+  width: 100% !important;
+  font-size: 70% !important;
+}
+.translationHeader label {
+  color: indigo !important;
+  font-size: 1.2em !important;
+}
+.translationHeader input {
+  width: 50% !important;
+}
+.translation-text {
+  color: #ff686b;
+  font-size: 2em;
+  padding: 20px;
+}
+.book_card {
+  display: inline-block;
+  margin: 20px;
+  width: 40% !important;
+}
+.book_card .header,
+.meta {
+  font-size: 90% !important;
+}
+
+.country-container {
+  text-align: center;
+}
+
+.country-search {
+  margin: 30px;
+}
+.country-card {
+  width: 30% !important;
+  margin: 10px !important;
+}
+
+.button {
+  color: #ff686b;
+}
+
+.add_book_container {
+  margin: auto !important;
+  width: 50% !important;
+}
+/* .main {
+  width: 50% !important;
+  margin: 0 !important;
+} */
+.add_book_btn {
+  margin: 30px !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.categoryDropdown {
+  margin: 40px;
+}
